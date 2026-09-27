@@ -20,6 +20,9 @@ public class kelayakan_ujian {
         // a == b selalu (&& diikat lebih kuat dari ||, jadi a otomatis = b)
         // c beda: kehadiran>=75 jadi wajib, dispensasi=true saja tak cukup jika kehadiran<75
 
+        System.out.println();
+        System.out.println("==== KELAYAKAN UJIAN ====");
+
         System.out.println("a (tanpa kurung): " + a);
         System.out.println("b (kurung precedence): " + b);
         System.out.println("c (kurung digeser): " + c);
