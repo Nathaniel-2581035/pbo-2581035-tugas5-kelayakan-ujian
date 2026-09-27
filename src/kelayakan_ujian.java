@@ -25,5 +25,11 @@ public class kelayakan_ujian {
         System.out.println("c (kurung digeser): " + c);
         System.out.println("!dispensasi: " + notDispensasi);
 
+        int cek = 0;
+        boolean x = (kehadiran >= 75) && (cek++ >=0);
+        boolean y = (nilaiTugas >= 60) || (cek++ >=0);
+        System.out.println("cek dipanggil: " + cek);
+        // cek=0: kehadiran>=75 sudah false (&& langsung false, kanan di-skip)
+        // nilaiTugas>=60 sudah true (|| langsung true, kanan di-skip juga)
     }
 }
